@@ -38,7 +38,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #if th object is new and its inverse is not calculate yet,then its value is fetched
 #from getm function invoked for passed object and then later inverse is calculated
 #using solve function and is set to object using setinv function.
-
+ 
 cacheSolve <- function(x, ...) {
   inv <- x$getinv()
   if(!is.null(inv)) {
