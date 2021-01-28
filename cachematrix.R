@@ -8,7 +8,8 @@
 #setinv function of makeCacheMatrix object and uses as cache for further calls
 #cacheSolve function is invoked for some object.
 
-
+#This file can sourced using source command and this functions can be executed.
+#These are all tested and is working as expected.
 
 ## makeCacheMatrix - Has formal argument where a matrix is passed in input and has
 #variable inv which is set to NULL by default and later functions setm,getm,setinv,
